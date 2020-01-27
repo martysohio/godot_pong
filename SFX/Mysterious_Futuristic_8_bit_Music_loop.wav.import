@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Mysterious_Futuristic_8_bit_Music_loop.wav-af67dcebd7a33878a9100c7d07a9b545.sample"
+
+[deps]
+
+source_file="res://SFX/Mysterious_Futuristic_8_bit_Music_loop.wav"
+dest_files=[ "res://.import/Mysterious_Futuristic_8_bit_Music_loop.wav-af67dcebd7a33878a9100c7d07a9b545.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
