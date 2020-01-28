@@ -14,3 +14,8 @@ Typical Pong gameplay.  Game is won at 4 points then restarts immediately. Basic
 * Kinematic2D movement
 * Simple rect sprites
 * UI text and controls, basic start menu
+
+## Controls
+
+Player 1 - up/down -> w/s
+Player 2 - up/down -> up arrow/down arrow
