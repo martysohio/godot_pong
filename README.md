@@ -15,6 +15,8 @@ Typical Pong gameplay.  Game is won at 4 points then restarts immediately. Basic
 * Simple rect sprites
 * UI text and controls, basic start menu
 
+![Game](https://raw.githubusercontent.com/martysohio/godot_pong/master/gameplay.png)
+
 ## Controls
 
 Player 1 - up/down -> w/s
