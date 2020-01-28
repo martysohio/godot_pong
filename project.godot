@@ -17,13 +17,26 @@ _global_script_class_icons={
 
 config/name="Pong"
 run/main_scene="res://Scenes/StartMenu.tscn"
+run/disable_stdout=true
+run/disable_stderr=true
 config/icon="res://icon.png"
+
+[autoload]
+
+global="*res://Scripts/global.gd"
+
+[debug]
+
+settings/fps/force_fps=120
+settings/stdout/print_fps=true
 
 [display]
 
 window/size/width=1920
 window/size/height=1080
-window/stretch/mode="2d"
+window/dpi/allow_hidpi=true
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [input]
 
@@ -47,6 +60,10 @@ player2_down={
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"unicode":0,"echo":false,"script":null)
  ]
 }
+
+[physics]
+
+common/physics_fps=120
 
 [rendering]
 

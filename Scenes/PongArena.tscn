@@ -32,6 +32,7 @@ position = Vector2( 1856, 540 )
 position = Vector2( 960, 540 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
+editor/display_folded = true
 margin_left = 832.0
 margin_top = 64.0
 margin_right = 1088.0

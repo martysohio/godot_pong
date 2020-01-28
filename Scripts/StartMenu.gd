@@ -14,7 +14,9 @@ func _ready():
 
 
 func _on_1Player_pressed():
+	global.player_mode = 1
 	get_tree().change_scene("res://Scenes/PongArena.tscn")
 
 func _on_2Player_pressed():
+	global.player_mode = 2
 	get_tree().change_scene("res://Scenes/PongArena.tscn")

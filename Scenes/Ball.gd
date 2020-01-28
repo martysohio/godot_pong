@@ -14,13 +14,15 @@ extends KinematicBody2D
 
 
 export var speed = 750
-var initial_dir = randi()%2
+#var initial_dir = randi()%2
 export var velocity = Vector2(1,.1)
 signal p1_score
 signal p2_score
 signal reset
 
+
 func _physics_process(delta):
+	
 	velocity = velocity.normalized() * speed * delta
 	var info =move_and_collide(velocity)
 	if info != null:
@@ -29,11 +31,14 @@ func _physics_process(delta):
 		speed+=100
 		velocity = velocity.bounce(info.normal)
 		velocity = velocity.normalized() + info.collider_velocity.normalized()
-
-
+	
+	ball_position()
 	off_screen_y()
 	off_screen_x()
 		
+func ball_position():
+	global.ball_position = position
+
 func off_screen_y():
 	if position.y > 1048 or position.y < 32:
 		velocity.y = -velocity.y	
